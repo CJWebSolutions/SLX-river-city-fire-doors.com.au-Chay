@@ -1,0 +1,287 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Century+Gothic');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+/*----------------------------------------------------------------
+    Font Family
+----------------------------------------------------------------*/
+
+h1, 
+h2, 
+h3, 
+h4 {
+    font-family: 'Century Gothic', Arial, Helvetica, sans-serif;
+}
+
+#services h3,
+#banner p,
+.btn, 
+.formbuilder-form input#submit-form, 
+#extraFormsContainer .modal-dialog .formbuilder-form input#submit-form {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+}
+
+/*----------------------------------------------------------------
+    Branding Colour
+----------------------------------------------------------------*/
+
+body,
+ul li {
+    color: #000;
+}
+
+#banner h1, 
+#banner p{
+    text-shadow: 0 0.075em 0.075em rgba(0, 0, 0, 0.5);
+}
+
+#header2a:before, 
+#header2a a,header span, 
+#header2b a,
+header a:hover, 
+.formbuilder-form .row label,
+#banner h1, 
+#banner p,  
+#contact p,
+#services p,
+.contact_detail, 
+.contact_detail a {
+    color: #fff;
+}
+
+#services h3 {
+    color:#d10606;
+    font-weight: 600;
+}
+
+#content h2, 
+#content h3,
+#contact h2, 
+#contact h3 {
+    color: #B60000;
+    font-weight: 600;
+}
+#banner p {
+    font-size: 19px;
+}
+
+body, 
+.formbuilder-form .row label {
+    font-weight:400;
+}
+
+#contact p,
+#services p,
+.contact_detail, 
+.contact_detail a {
+    font-weight:100;
+}
+
+.btn, 
+.formbuilder-form input#submit-form,
+.formbuilder-form input#submit-form:hover,
+#extraFormsContainer .modal-dialog .formbuilder-form input#submit-form, 
+#extraFormsContainer .modal-dialog .formbuilder-form input#submit-form:hover {
+   text-transform: uppercase;
+}
+
+#header2b a, 
+footer a:hover,
+.contact_detail a,
+.contact_detail a:hover,
+btn, 
+.btn:hover, 
+.formbuilder-form input#submit-form,
+.formbuilder-form input#submit-form:hover, 
+#extraFormsContainer .modal-dialog .formbuilder-form input#submit-form, 
+#extraFormsContainer .modal-dialog .formbuilder-form input#submit-form:hover {
+    text-decoration: none;
+}
+    
+/*----------------------------------------------------------------
+    Form
+----------------------------------------------------------------*/
+
+.form, 
+#extraFormsContainer .modal-dialog{
+    background-color: rgb(193, 29, 36);
+}
+
+/*----------------------------------------------------------------
+    Buttons
+----------------------------------------------------------------*/
+
+.btn {
+    color: #FFF;
+    border: 2px solid rgb(255, 255, 255);
+    background: transparent;
+    width:40%;
+    padding-left:10px;
+    padding-right:10px;
+}
+
+.formbuilder-form input#submit-form, 
+#extraFormsContainer .modal-dialog .formbuilder-form input#submit-form {
+    background: rgba(37, 41, 43, 0.97);
+    color:#fff;
+    transition: border-color 0.4s ease 0s, background-color 0.4s ease 0s;
+}
+
+@media (min-width: 711px) {
+    .btn:hover, 
+    .btn:focus, 
+    .btn:active, 
+    .btn.active, 
+    .open>.dropdown-toggle.btn {
+        color: #fff;
+        font-weight:600;
+        border: 2px solid #B60000;
+        background-color: #B60000;
+    }
+} 
+
+.formbuilder-form input#submit-form:hover, 
+#extraFormsContainer .modal-dialog .formbuilder-form input#submit-form:hover{
+    background-color: rgba(47, 46, 46, 1);
+    border-color: rgba(176, 214, 184, 1);
+    transition: border-color 0.4s ease 0s, background-color 0.4s ease 0s;
+}
+
+/*----------------------------------------------------------------
+    Custom Styles
+----------------------------------------------------------------*/
+
+#contact1b,
+#content2b,
+#contact2d,
+#contact2f,
+#contact2g {
+    display:none;
+}
+
+/*----------------------------------------------------------------
+    Header
+----------------------------------------------------------------*/
+
+#header{
+    border-top: 3px solid #0a0a0a;
+    padding: 0px;
+}
+
+#header1 p {
+    line-height:0;
+}
+
+#header1 img{
+    padding-top:30px;
+}
+
+#header2b {
+    font-size: 18.5px;
+}
+
+#header2a:before{}
+
+#header2 {
+    padding-bottom:0px;
+}
+
+/*----------------------------------------------------------------
+    Banner
+----------------------------------------------------------------*/
+
+#banner h1 {
+    font-size: 55px;
+}
+
+.banner_cover {
+    opacity: 0.5;
+    background-color:#000;
+}
+
+#banner1, #banner h1 {
+    margin:0;
+    text-align: left;
+}
+
+/*----------------------------------------------------------------
+    Services
+----------------------------------------------------------------*/
+
+#services {
+    border-top: 3px solid #0a0a0a;
+    border-bottom: 3px solid #0a0a0a;
+}
+#service1,
+#service2,
+#service3,
+#service4 {
+    padding-top:50px;
+    padding-bottom:50px;
+}
+
+/*----------------------------------------------------------------
+    Footer
+----------------------------------------------------------------*/
+footer *, 
+footer a , 
+footer {
+    color: #2a292b;
+}
+footer {
+    background-color: #f0efef;
+    padding: 25px 0 25px;
+}
+
+/*----------------------------------------------------------------
+    Media Queries
+----------------------------------------------------------------*/
+@media only screen and (max-width: 767px) and (min-width: 0px)  {  
+    #banner h1 , #banner p,.btn{
+        text-align:center;
+    }
+    #header1 img {
+        padding-top:20px
+    }
+    #header {
+        padding-bottom:25px;
+    }
+    #header2b {
+        line-height:15px;
+    }
+    #banner h1 {
+        font-size:45px;
+    }
+    #service1:hover,
+    #service2:hover,
+    #service3:hover,
+    #service4:hover{
+        transform: scale(1.0);
+    }
+    #service1,
+    #service2,
+    #service3,
+    #service4 {
+        padding-top:40px;
+        padding-bottom:0px;
+    }
+    #services {
+        padding-bottom:20px;
+    }
+}
+
+@media (max-width: 600px) {
+    .btn{
+        width:100%;
+        word-wrap: break-word;
+    }
+}
+@media (min-width: 0px) {
+    .btn {
+        margin-top: 10px;
+    }
+}
+@media (max-width: 767px) {
+    #service3 {
+        clear:left;
+    }
+} 
